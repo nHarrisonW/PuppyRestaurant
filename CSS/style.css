@@ -6,7 +6,7 @@ body{
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    height: 110vh;
+   
 }
 
 /* body of catagory */
@@ -14,7 +14,7 @@ body{
     padding: 5%;
 }
 
-.padImage{
+.paddd{
     padding-top: 2rem;
     padding-bottom: 2rem;
 }
