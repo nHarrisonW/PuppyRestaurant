@@ -19,11 +19,34 @@ body{
     padding-bottom: 2rem;
 }
 
+/* the main title page for catering */
 .catHead{
     background-color: #FFFFFF;
     color: #5F002B;
     font-size: 50px;
+}
 
+ /* title in catering */
+.catTitle{
+    
+    color: #5F002B;
+    font-size: 30px;
+}
+
+/* the paragraph in catering */
+.para{
+
+    color: #5F002B;
+    font-size: 10px;
+}
+
+/* collum */
+.colback{
+    background-color: #FFFFFF;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: .5rem;
 }
 
 /* JOHN */
