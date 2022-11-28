@@ -1,5 +1,13 @@
 /* ARELY */
-
+body{
+    background: url(../assets/bgtexture.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-attachment: scroll;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 110vh;
+}
 
 /* JOHN */
 
