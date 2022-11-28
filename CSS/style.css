@@ -9,3 +9,9 @@ body {
 
     background-image: url(../assets/bgtexture.jpg);
 }
+
+.whiteBg {
+
+
+    background-color: white !important;
+}
