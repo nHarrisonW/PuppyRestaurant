@@ -19,14 +19,15 @@ body {
 
 @font-face {
     font-family: "Montauk";
-    src: url("/PuppyRestaurant/");
+    src: url("../fonts/Montauk-Regular.otf");
 }
 
 
 .newFont2 {
 
 
-    font-family: Montauk-regular ;
+    font-family: "Montauk" ;
+    
 }
 
 .nav-link {
@@ -40,5 +41,23 @@ body {
     color: #5F002B;
 
     font-family: Montauk-Italic;
+    src: url("../fonts/Montauk-Italic.otf");
     
+}
+
+.getTall {
+
+    height: 100%;
+    object-fit: cover;
+}
+
+.endTxt {
+
+
+    text-align: end;
+}
+
+.newPadding {
+
+    padding-top: 60px;
 }
