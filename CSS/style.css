@@ -7,3 +7,24 @@
 body {
     background-image: url(../assets/bgtexture.jpg);
 }
+.titleText {
+    color: #5F002B;
+}
+.descriptionText {
+    color: #5F002B;
+}
+#StoryText {
+    color: #5F002B;
+}
+#ourTeam {
+    background-color: white;
+    text-align: center;
+    color: #5F002B;
+
+}
+.dogCards {
+    padding-top: 2%;
+    /* padding-left: 8%;
+    padding-right: 8%; */
+
+}
