@@ -1,15 +1,70 @@
-/* ARELY */
+/* ARELY ARELY ARELY ARELY ARELY ARELY ARELY ARELY ARELY ARELY ARELY*/
+/* font-family: 'Fugaz One', cursive; */
+body{
+    background: url(../assets/bgtexture.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-attachment: scroll;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 
+/* body of catagory */
+.imgWi{
+    height: 110%
+}
+.cat{
+    padding: 5%;
+}
+
+.imgee{
+    width: 100%;
+}
+
+.paddd{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+/* the main title page for catering */
+.catHead{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    font-size: 50px;
+    margin-bottom: 4rem;
+    font-family: 'Fugaz One', cursive;
+}
+
+ /* title in catering */
+.catTitle{
+    
+    color: #5F002B;
+    font-size: 30px;
+    font-family: 'Fugaz One', cursive;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* the paragraph in catering */
+.para{
+
+    color: #5F002B;
+    font-size: 11px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* collum */
+.colback{
+    background-color: #FFFFFF;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
 
 /* JOHN */
 
 /* HARRISON */
-
-
-
-
-
-
 
 
 
