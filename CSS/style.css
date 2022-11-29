@@ -8,6 +8,17 @@ body{
     background-size: cover;
 }
 
+.cat{
+    padding: 5%;
+}
+.catHead{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    font-size: 50px;
+    margin-bottom: 4rem;
+    font-family: 'Fugaz One', cursive;
+}
+
 /* JOHN  */
 
 /* HARRISON */
