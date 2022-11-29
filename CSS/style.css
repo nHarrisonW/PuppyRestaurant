@@ -14,7 +14,10 @@ body{
     height: 110%
 }
 .cat{
-    padding: 5%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .imgee{
@@ -62,7 +65,7 @@ body{
     padding-right: 1rem;
 }
 
-..nav-link {
+.nav-link {
     color: #5F002B;
  
 
