@@ -22,8 +22,6 @@
     src: url(../fonts/Montauk-Bold.otf);
 }
 
-
-
 body{
     background: url(../assets/bgtexture.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
