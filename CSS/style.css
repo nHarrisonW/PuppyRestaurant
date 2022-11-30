@@ -16,10 +16,17 @@ body {
 #StoryText {
     color: #5F002B;
 }
+.StoryGrill {
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+}
 #ourTeam {
     background-color: white;
     text-align: center;
     color: #5F002B;
+    margin-bottom: 2%;
+    margin-top: 2%;
 
 }
 .dogCards {
