@@ -17,16 +17,14 @@ body {
 }
 
 
-@font-face {
-    font-family: "Montauk";
-    src: url("../fonts/Montauk-Light.otf");
-}
+
 
 
 .newFont2 {
 
 
-    font-family: "Montauk" ;
+    font-family: Montauk-Regular ;
+    font-size: 20px;
     
 }
 
@@ -41,7 +39,7 @@ body {
     color: #5F002B;
 
     font-family: Montauk-Italic;
-    src: url("../fonts/Montauk-Italic.otf");
+    
     
 }
 
@@ -65,4 +63,24 @@ body {
 .montFont {
 
     font-family: "Montauk";
+}
+
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+/* for Italic */
+@font-face {
+    font-family: Montauk-Italic;
+    src: url(../fonts/Montauk-Italic.otf);
+}
+/* for Light */
+@font-face {
+    font-family: Montauk-Light;
+    src: url(../fonts/Montauk-Light.otf);
+}
+/* for Bold */
+@font-face {
+    font-family: Montauk-Bold;
+    src: url(../fonts/Montauk-Bold.otf);
 }
