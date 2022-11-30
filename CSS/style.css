@@ -4,6 +4,19 @@
 /* JOHN */
 
 /* HARRISON */
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+@font-face {
+    font-family: Montauk-Italic;
+    src: url(../fonts/Montauk-Italic.otf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: Montauk-Light;
+    src: url(../fonts/Montauk-Light.otf);
+}
 body {
     background-image: url(../assets/bgtexture.jpg);
 }
@@ -12,22 +25,29 @@ body {
 }
 .descriptionText {
     color: #5F002B;
+    font-family: Montauk-Light;
+    font-size: xx-large;
+
+
 }
 #StoryText {
     color: #5F002B;
-}
-.StoryGrill {
-    justify-content: space-between;
-    padding-left: 5%;
-    padding-right: 5%;
+    font-family: Montauk-Italic;
+    font-size: 60px;
 }
 #ourTeam {
     background-color: white;
     text-align: center;
     color: #5F002B;
-    margin-bottom: 2%;
-    margin-top: 2%;
-
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    font-family: Montauk-Italic;
+    font-size: 60px;
+}
+.overView {
+    
 }
 .dogCards {
     padding-top: 2%;
@@ -37,10 +57,20 @@ body {
 }
 .nav-link {
     color: #5F002B;
+    font-family: Montauk-Regular;
+    font-size: xx-large;
 }
 .card-text {
     color: #5F002B;
+    font-family: Montauk-Light;
+    font-size: xx-large;
 }
 .card-title {
     color: #5F002B;
+    font-family: Montauk-Italic;
+    font-size: 60px;
+}
+#DoggoCards {
+    /* margin-left: 5%;
+    margin-right: 5%; */
 }
