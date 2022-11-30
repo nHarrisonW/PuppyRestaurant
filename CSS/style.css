@@ -19,7 +19,7 @@ body {
 
 @font-face {
     font-family: "Montauk";
-    src: url("../fonts/Montauk-Regular.otf");
+    src: url("../fonts/Montauk-Light.otf");
 }
 
 
@@ -41,7 +41,7 @@ body {
     color: #5F002B;
 
     font-family: Montauk-Italic;
-    src: url("../fonts/Montauk-Italic.otf");
+    src: url("../fonts/Montauk-Regular.otf");
     
 }
 
@@ -60,4 +60,9 @@ body {
 .newPadding {
 
     padding-top: 60px;
+}
+
+.montFont {
+
+    font-family: "Montauk";
 }
