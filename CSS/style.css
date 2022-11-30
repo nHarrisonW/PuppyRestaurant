@@ -22,6 +22,19 @@
     src: url(../fonts/Montauk-Bold.otf);
 }
 
+/* for the nav */
+.colorMe{
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+}
+.colorMe2{
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+    padding-right: 105px;
+}
+
+/* end of nav */
+
 body{
     background: url(../assets/bgtexture.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
@@ -32,11 +45,16 @@ body{
 }
 
 
-
 /* body of catagory */
 .imgWi{
     height: 110%
 }
+
+/* for the image in the same row as the text  */
+.imgee3e{
+    height: 100%
+}
+
 .cat{
     padding-top: 1%;
     padding-bottom: 5%;
@@ -74,7 +92,7 @@ body{
 .para{
 
     color: #5F002B;
-    font-size: 18px;
+    font-size: 16px;
     padding-left: 1rem;
     padding-right: 1rem;
     font-family:  Montauk-Light;
