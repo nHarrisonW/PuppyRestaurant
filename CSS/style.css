@@ -1,5 +1,29 @@
 /* ARELY ARELY ARELY ARELY ARELY ARELY ARELY ARELY ARELY ARELY ARELY*/
 /* font-family: 'Fugaz One', cursive; */
+
+/* for reglaur */
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+/* for Italic */
+@font-face {
+    font-family: Montauk-Italic;
+    src: url(../fonts/Montauk-Italic.otf);
+}
+/* for Light */
+@font-face {
+    font-family: Montauk-Light;
+    src: url(../fonts/Montauk-Light.otf);
+}
+/* for Bold */
+@font-face {
+    font-family: Montauk-Bold;
+    src: url(../fonts/Montauk-Bold.otf);
+}
+
+
+
 body{
     background: url(../assets/bgtexture.jpg) no-repeat center fixed;
     -webkit-background-size: cover;
@@ -52,9 +76,10 @@ body{
 .para{
 
     color: #5F002B;
-    font-size: 11px;
+    font-size: 18px;
     padding-left: 1rem;
     padding-right: 1rem;
+    font-family:  Montauk-Light;
 }
 
 /* collum */
