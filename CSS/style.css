@@ -19,6 +19,8 @@
 }
 body {
     background-image: url(../assets/bgtexture.jpg);
+    margin-left: 7%;
+    margin-right: 7%;
 }
 .titleText {
     color: #5F002B;
@@ -26,7 +28,7 @@ body {
 .descriptionText {
     color: #5F002B;
     font-family: Montauk-Light;
-    font-size: xx-large;
+    font-size: large;
 
 
 }
@@ -39,8 +41,8 @@ body {
     background-color: white;
     text-align: center;
     color: #5F002B;
-    margin-bottom: 0.5%;
-    margin-top: 0.5%;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
     /* margin-left: 5%;
     margin-right: 5%; */
     font-family: Montauk-Italic;
@@ -63,7 +65,7 @@ body {
 .card-text {
     color: #5F002B;
     font-family: Montauk-Light;
-    font-size: xx-large;
+    font-size: large;
 }
 .card-title {
     color: #5F002B;
@@ -73,4 +75,7 @@ body {
 #DoggoCards {
     /* margin-left: 5%;
     margin-right: 5%; */
+}
+#CutieDogs {
+    max-width: 100%;
 }
