@@ -84,3 +84,78 @@ body {
     font-family: Montauk-Bold;
     src: url(../fonts/Montauk-Bold.otf);
 }
+
+.fixLogo { 
+
+    max-width: 250px;
+}
+
+.redColor {
+
+    color:#5F002B ;
+}
+
+/* this one is for the header and to center the column */
+
+.headerMenu {
+
+    background-color: white !important;
+}
+
+.centerMenu {
+
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+}
+
+.menuPic1 {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 0;
+    
+}
+
+.stretchPic {
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.card-img-top {
+
+    flex-shrink : 0;
+    width: 100%;
+}
+
+/* img-fluid {} */
+/* .fluidMe {
+
+   object-fit: cover;
+} */
+
+/* @media (min-width:768px) {
+    .container, .container-md, .container-sm {
+        max-width: 720px
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width:992px) {
+    .container, .container-lg, .container-md, .container-sm {
+        max-width: 960px
+    }
+}
+
+@media (min-width:1200px) {
+    .container, .container-lg, .container-md, .container-sm, .container-xl {
+        width: 90%;
+        max-width: 1640px
+        
+    }
+} */
