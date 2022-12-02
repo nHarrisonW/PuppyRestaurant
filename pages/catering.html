@@ -22,33 +22,49 @@
     <link rel="stylesheet" href="../CSS/style.css" />
   </head>
   <body class="cat">
+
+    
+
     <!-- STRAT OF BODY -->
-    <div class="container">
-      <nav class="navbar navbar-expand-lg bg-transparent">
+   
+      <nav class="navbar navbar-expand-lg bg-transparent d-lg-none">
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img src="../assets/MuzzlesLogo.png" class="" alt=".." /></a>
+          <!-- this allows user to go home  -->
+          <a class="navbar-brand" href="#">  <a href="../index.html"><img src="../assets/MuzzlesLogo.png" class="" alt=".." /></a></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
+            
+            <ul class="navbar-nav mb-2">
+              <!-- this to go to about page  -->
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a href="../pages/About.html" class="nav-link buttonn">About</a></a>
               </li>
+              <br>
+              <br>
+              <!-- this to go to  -->
               <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
+                <a href="../pages/Menu.html" class="nav-link buttonn">Menu</a></a>
               </li>
+              <!-- go to catering -->
               <li class="nav-item">
-                <a class="nav-link disabled">Cater</a>
+                <a href="../pages/catering.html" class="nav-link buttonn">Catering</a></a>
               </li>
+              <!-- this is for phots -->
+              
+                <li class="nav-item">
+                  <a href="../pages/photos.html" class="nav-link buttonn">Photos</a></a>
+                </li>
+              
+        
             </ul>
           </div>
         </div>
       </nav>
-    </div>
 
     <!---- This is the start of the NAvBAR!-->
-    <div class="container bg-header px-0">
+    <div class="container bg-header px-0 d-none d-lg-block">
       <nav class="navbar navbar-expand-lg navbar-light px-0">
         <a class="navbar-brand" href="#">
           <!-- <img src="./assets/MuzzlesLogo.png width="100%" height="auto" /> -->
