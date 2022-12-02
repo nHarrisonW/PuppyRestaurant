@@ -21,6 +21,10 @@ body {
     background-image: url(../assets/bgtexture.jpg);
     margin-left: 7%;
     margin-right: 7%;
+    margin-bottom: 2%;
+}
+.storyBox {
+    background-color: white;
 }
 .titleText {
     color: #5F002B;
@@ -79,3 +83,35 @@ body {
 #CutieDogs {
     max-width: 100%;
 }
+.endTxt {
+
+
+    text-align: end;
+}
+
+.nav-link {
+    color: #5F002B;
+}
+
+.montFont{
+    font-family:  Montauk-Light;
+    color: #5F002B;
+    font-size: 20px;
+    padding-top: 5%;
+}
+@media screen and (max-width: 1025px) {
+    .card-title {
+      font-size: 35px;
+      text-align: center;
+    }
+    #ourTeam {
+        font-size: 35px;
+      }
+      #StoryText {
+        font-size: 40px;
+        text-align: center;
+      }
+      .card-text {
+        text-align: center;
+      }
+  }
