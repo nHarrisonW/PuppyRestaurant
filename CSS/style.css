@@ -131,6 +131,13 @@ body {
     width: 100%;
 }
 
+.bgMenu
+
+{
+
+    background-color: white !important;
+}
+
 /* img-fluid {} */
 /* .fluidMe {
 
