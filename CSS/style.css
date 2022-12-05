@@ -151,3 +151,96 @@ body {
 
     background-color: white !important;
 }
+
+.storyBox {
+    background-color: white;
+}
+.titleText {
+    color: #5F002B;
+}
+.descriptionText {
+    color: #5F002B;
+    font-family: Montauk-Light;
+    font-size: large;
+    
+
+}
+#StoryText {
+    color: #5F002B;
+    font-family: Montauk-Italic;
+    font-size: 60px;
+}
+#ourTeam {
+    background-color: white;
+    text-align: center;
+    color: #5F002B;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    font-family: Montauk-Italic;
+    font-size: 60px;
+}
+.overView {
+    
+}
+.dogCards {
+    padding-top: 2%;
+    /* padding-left: 8%;
+    padding-right: 8%; */
+
+}
+.nav-link {
+    color: #5F002B;
+    font-family: Montauk-Regular;
+    font-size: xx-large;
+}
+.card-text {
+    color: #5F002B;
+    font-family: Montauk-Light;
+    font-size: large;
+}
+.card-title {
+    color: #5F002B;
+    font-family: Montauk-Italic;
+    font-size: 60px;
+}
+#DoggoCards {
+    /* margin-left: 5%;
+    margin-right: 5%; */
+}
+#CutieDogs {
+    max-width: 100%;
+}
+.endTxt {
+
+
+    text-align: end;
+}
+
+.nav-link {
+    color: #5F002B;
+}
+
+.montFont{
+    font-family:  Montauk-Light;
+    color: #5F002B;
+    font-size: 20px;
+    padding-top: 5%;
+}
+@media screen and (max-width: 1025px) {
+    .card-title {
+      font-size: 35px;
+      text-align: center;
+    }
+    #ourTeam {
+        font-size: 35px;
+      }
+      #StoryText {
+        font-size: 40px;
+        text-align: center;
+      }
+      .card-text {
+        text-align: center;
+      }
+  }
