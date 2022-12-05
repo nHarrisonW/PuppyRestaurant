@@ -19,3 +19,135 @@ body{
 /*  test*/
 /* HARRISON */
 
+body {
+
+    background-image: url(../assets/bgtexture.jpg);
+}
+
+.whiteBg {
+
+
+    background-color: white !important;
+}
+
+
+
+
+
+.newFont2 {
+
+
+    font-family: Montauk-Regular ;
+    color: #5F002B
+    
+}
+
+.nav-link {
+    color: #5F002B;
+ 
+
+}
+
+.newFont3 {
+
+    color: #5F002B;
+
+    font-family: Montauk-Italic;
+    
+    
+}
+
+.getTall {
+
+    height: 100%;
+    object-fit: cover;
+}
+
+.endTxt {
+
+
+    text-align: end;
+}
+
+.newPadding {
+
+    padding-top: 60px;
+}
+
+.montFont {
+
+    font-family: "Montauk";
+}
+
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+/* for Italic */
+@font-face {
+    font-family: Montauk-Italic;
+    src: url(../fonts/Montauk-Italic.otf);
+}
+/* for Light */
+@font-face {
+    font-family: Montauk-Light;
+    src: url(../fonts/Montauk-Light.otf);
+}
+/* for Bold */
+@font-face {
+    font-family: Montauk-Bold;
+    src: url(../fonts/Montauk-Bold.otf);
+}
+
+.fixLogo { 
+
+    max-width: 250px;
+}
+
+.redColor {
+
+    color:#5F002B ;
+}
+
+/* this one is for the header and to center the column */
+
+.headerMenu {
+
+    background-color: white !important;
+}
+
+.centerMenu {
+
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+}
+
+.menuPic1 {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 0;
+    
+}
+
+.stretchPic {
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.card-img-top {
+
+    flex-shrink : 0;
+    width: 100%;
+}
+
+.bgMenu
+
+{
+
+    background-color: white !important;
+}
