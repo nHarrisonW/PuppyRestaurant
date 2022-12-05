@@ -3,13 +3,168 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Puppy Restaurant</title>
+    <title>About Page</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="../CSS/style.css">
 </head>
   <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-  </body>
-</html>
+    <!-- navabar! -->
+    <div class="container bg-header px-0">
+      <nav class="navbar navbar-expand-lg navbar-light px-0">
+        <a class="navbar-brand" href="#">
+            <img src="../assets/MuzzlesLogo.png" class="align-top" alt="..">
+        </a>
+       <!---- The buttons-->>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMuzzles"
+          aria-controls="navbarMuzzles" aria-expanded="false" aria-label="Toggle navigation">
+          <h3 class="fas fa-paw"></h3>
+        </button>
+        <!----- The links that would take you to the pages we are working on -->>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarMuzzles">
+          <ul class="nav justify-content-end">
+            <li class="nav-item col-12 col-sm-3">
+              <a class="nav-link" href="./pages/About.html">About</a>
+            </li>
+            <li class="nav-item col-12 col-sm-3">
+              <a class="nav-link active" href="./pages/Menu.html">Menu</a>
+            </li>
+            <li class="nav-item col-12 col-sm-3">
+              <a class="nav-link" href="./pages/catering.html">Catering</a>
+            </li>
+            <li class="nav-item col-12 col-sm-3">
+              <a class="nav-link" href="./pages/photos.html">Photos</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- Story behind the grill container -->
+    <div class="container-fluid">
+        <div class="row justify-content-evenly">
+            <div class="col img-fluid"><img id="CutieDogs" src="../assets/AboutMain.jpg" alt="two dogs at a cutting board"></div>
+            <div class="col-lg-8 storyBox">
+                <h1 id="StoryText">The Story Behind the Grill</h1>
+                <p class="descriptionText">Lorem ipsum dolor sit amet consectetur adipisicing elit tur provident ut deleniti quos, excepturi voluptatum ex est. Id assumenda unde magni veritatis!  aliquam placeat, quo officia autem quis quam eveniet, nemo.</p>
+                
+                <p class="descriptionText">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Excepturi, magnam impedit similique perferendis officiis ullam voluptatem ex ab dolore iste! Suscipit, vel! Aliquam consectetur consequuntur modi, iusto quam numquam. Ipsum accusantium nobis assumenda soluta rem sapiente porro officiis modi et, hic iste neque in. Non quis cum .</p>
+                
+                <p class="descriptionText">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, molestiae consequuntur excepturi voluptatem, possimus officia veniam non enim atque iure qui totam! Fuga officia laborum fugit est expedita obcaecati. Autem harum necessitatibus voluptatibus obcaecati, illo atque id sit cum quia recusandae?</p>
+            </div>
+        </div>
+        <!-- our team bar -->
+          <div class="row">
+            <div class="col-xxl-12">
+              <h1 id="ourTeam">Our Team</h1>
+            </div>
+        </div>
+        <!-- begin rows for doggy cards -->
+        <div class="row row-cols-1 row-cols-md-3 g-3" id="DoggoCards">
+          <!-- george card -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="../assets/doxie3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-title">George</h1>
+                <p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus quibusdam itaque maiores ab a. Vero suscipit aliquam assumenda harum enim aut odio repellat magni aperiam illo! Aspernatur dolorum hic repellat, natus eligendi inventore porro atque, ipsum aliquam a, sit amet.</p>
+              </div>
+            </div>
+          </div>
+          <!-- butterscotch card -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="../assets/jackrussel.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-title">Butterscotch</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque eveniet unde dolore placeat facere velit, laborum maxime molestiae assumenda beatae eligendi adipisci incidunt laudantium fugit, iure quod, alias temporibus ullam est mollitia. Laborum nulla incidunt tempore accusamus obcaecati saepe ex.</p>
+              </div>
+            </div>
+          </div>
+          <!-- louie -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="../assets/doxie1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-title">Louie</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque perferendis velit ipsa deleniti consequatur quas officia quam adipisci sint. Nesciunt tempora consequuntur dignissimos ipsum sunt unde animi quidem molestiae at, illum deserunt possimus quos doloremque iusto, quaerat esse quo rerum.</p>
+              </div>
+            </div>
+          </div>
+          <!-- willow card -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="../assets/novascotia.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-title">Willow</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis nobis odit quasi exercitationem tempora vel, doloremque molestiae libero tempore magni cupiditate! Reprehenderit vel molestiae repellat repudiandae sit, aperiam est. In necessitatibus animi dolore suscipit, ratione distinctio minima dolorum optio dolor!.</p>
+              </div>
+            </div>
+          </div>
+          <!-- skittles card -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="../assets/doxie2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-title">Skittles</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, ab unde minima eaque distinctio explicabo error tenetur quos voluptate eos nulla architecto eligendi quod, iste temporibus placeat dolor nihil cumque possimus alias consectetur odit esse. Quod omnis necessitatibus commodi? Nisi..</p>
+              </div>
+            </div>
+          </div>
+          <!-- mario card -->
+          <div class="col">
+            <div class="card h-100">
+              <img src="../assets/staffie.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h1 class="card-title">Mario</h1>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem mollitia placeat tempora porro? Earum, eum, necessitatibus nobis illum quas dolor nihil consequuntur officiis adipisci impedit corporis quaerat? Reiciendis dignissimos amet ex. Sed id ullam ad, officia odit iure maiores delectus!.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Footer below -->
+        <div class="container-fluid d-none d-md-block">
+          <!-- row for footer -->
+          <div class="row justify-content-between montFont">
+            <div class="col-6">
+              1357 Mutt Street, Rottweiler CA. 12345
+              <br />
+              Phone: 123-456-7890
+            </div>
+            <!----- It was uneven so i tried adding some padding up top so it'll even up to the right side-->
+            <!------ endTxt to send the img to the right as well as the copy right!-->
+            <div class="col-6 endTxt">
+              <img
+                src="../assets/CompanyLogo.png"
+                width="100px"
+                alt="Muzzles Restaurant logo"
+              />
+              <br />
+              Copyright © Muzzles Restaurant
+            </div>
+          </div>
+        </div>
+    
+        <!-- This is for the footer but responsive // footer but responsive // footer but responsive   -->
+        <div class="container-fluid d-md-none">
+          <div class="row justify-content-between montFont">
+            <center>
+            <div class="col"> <img
+              src="../assets/CompanyLogo.png"
+              width="100px"
+              alt="Muzzles Restaurant logo"
+            /> </div></center>
+            <div class="col-12"><center>
+              1357 Mutt Street, Rottweiler CA. 12345</center>
+            </div>
+            <center>
+            <div class="col-12"> Phone: 123-456-7890</div></center>
+            <!----- It was uneven so i tried adding some padding up top so it'll even up to the right side-->
+            <!------ endTxt to send the img to the right as well as the copy right!-->
+            <center><div class="col">Copyright © Muzzles Restaurant</div></center>
+          </div>
+        </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+      </body>
+      </html>
