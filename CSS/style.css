@@ -587,6 +587,7 @@ text-decoration: none;
     padding: 3%;
     padding-left: 5%;
     padding-right: 5%;
+    padding-bottom: 7%;
 }
 
 .titleOfCard{
@@ -605,7 +606,7 @@ text-decoration: none;
 .begTitleR{
     text-align: right;
     color: #5F002B;
-    font-family:  Montauk-Light;
+    font-family:  Montauk-light;
     font-size: 25px;
     
     /* padding-top: 10%; */
@@ -646,6 +647,25 @@ text-decoration: none;
 }
 
 .line{
-    border-top: 1px solid #980051;
+    border-top: .9px solid #980051;
     width: 100%;
 }
+
+.card-img-top{
+    border-radius: 0px;
+}
+
+.colorwise{
+    color: transparent;
+}
+
+.catHead1{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+    padding-top: .7%;
+    padding-bottom: .7%;
+}
+
+
