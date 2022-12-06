@@ -582,3 +582,65 @@ text-decoration: none;
 
 
 /* menu page menu page menu page menu page */
+/* padding for card */
+.cardPadd{
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.titleOfCard{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+    font-size: 20px;
+}
+.underTitle{
+    font-family:  Montauk-Light;
+    color: #5F002B;
+    font-size: 14px;
+    margin-top: -.4rem !important;
+  
+}
+
+.begTitleR{
+    text-align: right;
+    color: #5F002B;
+    font-family:  Montauk-Light;
+    font-size: 25px;
+    
+    /* padding-top: 10%; */
+}
+
+.begTitleL{
+    text-align: left;
+    color: #5F002B;
+    font-family:  Montauk-Light;
+    font-size: 25px;
+   
+}
+
+.OneSpacing{
+    margin-top: 30px;
+}
+
+.TwoSpacing{
+    margin-top: -.8rem !important;
+    
+}
+
+.decription{
+    font-family:  Montauk-Light;
+    color: #5F002B;
+    font-size: 16px;
+   
+}
+.dec{
+    
+    color: #5F002B;
+    height: 6%;
+    background-color: #22000f;
+}
+
+.lineeeSpaving{
+    padding-bottom: 0%;
+}
