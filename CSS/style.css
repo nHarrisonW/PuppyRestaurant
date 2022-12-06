@@ -249,8 +249,21 @@ body {
         font-size: 40px;
         text-align: center;
       }
+      .descriptionText {
+        
+      }
+      .storyBox {
+        
+      }
+      
       .card-text {
         text-align: center;
+      }
+      #CutieDogs {
+        display: none;
+      }
+      .goAway {
+        display: none;
       }
   }
 
