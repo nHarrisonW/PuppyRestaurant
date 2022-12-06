@@ -148,14 +148,23 @@ body {
 .descriptionText {
     color: #5F002B;
     font-family: Montauk-Light;
-    font-size: large;
+    font-size: 16px;
+    padding-left: 4%;
+    padding-right: 5%;
+    line-height: -2;
+    line-height: 1;
     
 
 }
 #StoryText {
     color: #5F002B;
-    font-family: Montauk-Italic;
-    font-size: 60px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 40px;
+    padding-left: 4%;
+    padding-right: 2%;
+    padding-top: 3%;
+    
+    
 }
 #ourTeam {
     background-color: white;
@@ -165,8 +174,10 @@ body {
     margin-top: 1.5%;
     /* margin-left: 5%;
     margin-right: 5%; */
-    font-family: Montauk-Italic;
-    font-size: 60px;
+    font-family: 'Fugaz One', cursive;
+    font-size: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
 .overView {
     
@@ -198,6 +209,12 @@ body {
 }
 #CutieDogs {
     max-width: 100%;
+}
+#CutieDogs2 {
+    max-width: 100%;
+    border: 10px solid white;
+    margin-bottom: 2%;
+
 }
 .endTxt {
 
