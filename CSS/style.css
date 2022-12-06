@@ -644,3 +644,8 @@ text-decoration: none;
 .lineeeSpaving{
     padding-bottom: 0%;
 }
+
+.line{
+    border-top: 1px solid #980051;
+    width: 100%;
+}
