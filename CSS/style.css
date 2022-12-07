@@ -22,7 +22,7 @@ body {
 
 .newFont2 {
 
-    font-size: 12px;
+    font-size: 14px;
     font-family: Montauk-Regular ;
     color: #5F002B
     
@@ -40,6 +40,8 @@ body {
     color: #5F002B;
 
     font-family: Montauk-Italic;
+
+    font-size: 50px;
     
     
 }
