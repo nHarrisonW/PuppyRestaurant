@@ -246,13 +246,7 @@ body {
       #StoryText {
         font-size: 40px;
         text-align: center;
-      }
-      .descriptionText {
-        
-      }
-      .storyBox {
-        
-      }
+      } 
       
       .card-text {
         text-align: center;
@@ -262,7 +256,7 @@ body {
       }
       .goAway {
         display: none;
-      }
+    }
   }
 
   .colorMe{
@@ -678,6 +672,32 @@ text-decoration: none;
     padding-top: .7%;
     padding-bottom: .7%;
 }
+
+@media screen and (max-width: 1025px) {
+    .card-title {
+      font-size: 30px;
+      text-align: center;
+    }
+    #ourTeam {
+        font-size: 35px;
+      }
+      #StoryText {
+        font-size: 40px;
+        text-align: center;
+      } 
+      
+      .card-text {
+        text-align: center;
+      }
+      #CutieDogs {
+        display: none;
+      }
+      .goAway {
+        display: none;
+    }
+  }
+
+
 
 
 
