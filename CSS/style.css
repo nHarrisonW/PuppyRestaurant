@@ -22,9 +22,10 @@ body {
 
 .newFont2 {
 
-
+    font-size: 12px;
     font-family: Montauk-Regular ;
     color: #5F002B
+    
     
 }
 
@@ -88,6 +89,7 @@ body {
 .fixLogo { 
 
     max-width: 250px;
+    
 }
 
 .redColor {
