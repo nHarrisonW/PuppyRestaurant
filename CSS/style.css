@@ -144,6 +144,9 @@ body {
 
 .storyBox {
     background-color: white;
+    /*background-size: contain;*/
+    /* padding-right: 0; */
+    margin-right: 1%;
 }
 .titleText {
     color: #5F002B;
