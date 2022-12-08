@@ -24,7 +24,7 @@ body {
 .newFont2 {
 
     font-size: 14px;
-    font-family: Montauk-Regular ;
+    font-family: Montauk-Light ;
     color: #5F002B
     
     
@@ -760,6 +760,18 @@ text-decoration: none;
 
 .cardSpacing1{
     margin-top: 6%;
+}
+
+.montFont24
+{
+
+    padding-left: 8%;
+    
+}
+
+.montFont25 {
+
+    padding-right: 7%;
 }
 
 
