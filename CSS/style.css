@@ -1,7 +1,781 @@
 /* ARELY  */
 
 
+/* JOHN  JOHN JOHN JOHN  JOHN JOHN JOHN JOHN JOHN JOHN JOHN JOHN JOHN JOHN JOHN JOHN JOHN*/
+
 /* JOHN  */
 /*  test*/
 /* HARRISON */
+
+body {
+
+    background-image: url(../assets/bgtexture.jpg);
+}
+
+.whiteBg {
+
+
+    background-color: white !important;
+}
+
+
+
+
+
+.newFont2 {
+
+    font-size: 14px;
+    font-family: Montauk-Light ;
+    color: #5F002B
+    
+    
+}
+
+.nav-link {
+    color: #5F002B;
+ 
+
+}
+
+.newFont3 {
+
+    color: #5F002B;
+
+    font-family: Montauk-Italic;
+
+    font-size: 50px;
+    
+    
+}
+
+.getTall {
+
+    height: 100%;
+    object-fit: cover;
+}
+
+.endTxt {
+
+
+    text-align: end;
+}
+
+.newPadding {
+
+    padding-top: 60px;
+}
+
+.montFont {
+
+    font-family: "Montauk";
+}
+
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+/* for Italic */
+@font-face {
+    font-family: Montauk-Italic;
+    src: url(../fonts/Montauk-Italic.otf);
+}
+/* for Light */
+@font-face {
+    font-family: Montauk-Light;
+    src: url(../fonts/Montauk-Light.otf);
+}
+/* for Bold */
+@font-face {
+    font-family: Montauk-Bold;
+    src: url(../fonts/Montauk-Bold.otf);
+}
+
+.fixLogo { 
+
+    max-width: 250px;
+}
+
+.redColor {
+
+    color:#5F002B ;
+}
+
+/* this one is for the header and to center the column */
+
+.headerMenu {
+
+    background-color: white !important;
+}
+
+.centerMenu {
+
+    justify-content: center;
+    align-items: center;
+
+    display: flex;
+}
+
+.menuPic1 {
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-width: 0;
+    
+}
+
+.stretchPic {
+    object-fit: cover;
+    height: 100%;
+
+}
+
+.card-img-top {
+
+    flex-shrink : 0;
+    width: 100%;
+}
+
+.bgMenu
+
+{
+
+    background-color: white !important;
+}
+
+.storyBox {
+    background-color: white;
+    /*background-size: contain;*/
+    /* padding-right: 0; */
+    margin-right: 1%;
+}
+.titleText {
+    color: #5F002B;
+}
+.descriptionText {
+    color: #5F002B;
+    font-family: Montauk-Light;
+    font-size: 16px;
+    padding-left: 4%;
+    padding-right: 5%;
+    line-height: -2;
+    line-height: 1;
+    
+
+}
+#StoryText {
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive;
+    font-size: 40px;
+    padding-left: 4%;
+    padding-right: 2%;
+    padding-top: 3%;
+    
+    
+}
+#ourTeam {
+    background-color: white;
+    text-align: center;
+    color: #5F002B;
+    margin-bottom: 1.5%;
+    margin-top: 1.5%;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    font-family: 'Fugaz One', cursive;
+    font-size: 30px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.dogCards {
+    padding-top: 2%;
+    /* padding-left: 8%;
+    padding-right: 8%; */
+
+}
+.nav-link {
+    color: #5F002B;
+    font-family: Montauk-Regular;
+    font-size: xx-large;
+}
+.card-text {
+    color: #5F002B;
+    font-family: Montauk-Light;
+    font-size: 15px;
+    line-height: -2;
+    line-height: 1;
+    padding-right: 4%;
+    padding-left: 2%;
+}
+.card-title {
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive;
+    padding-left: 2%;
+    font-size: 25px;
+}
+
+#CutieDogs {
+    max-width: 100%;
+}
+#CutieDogs2 {
+    max-width: 100%;
+    border: 10px solid white;
+    margin-bottom: 2%;
+
+}
+.endTxt {
+
+
+    text-align: end;
+}
+
+.nav-link {
+    color: #5F002B;
+}
+
+.montFont{
+    font-family:  Montauk-Light;
+    color: #5F002B;
+    font-size: 20px;
+    padding-top: 5%;
+}
+@media screen and (max-width: 1025px) {
+    .card-title {
+      font-size: 30px;
+      text-align: center;
+    }
+    #ourTeam {
+        font-size: 35px;
+      }
+      #StoryText {
+        font-size: 40px;
+        text-align: center;
+      } 
+      
+      .card-text {
+        text-align: center;
+      }
+      #CutieDogs {
+        display: none;
+      }
+      .goAway {
+        display: none;
+    }
+  }
+
+  .colorMe{
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+}
+.colorMe2{
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+    padding-right: 105px;
+}
+
+/* end of nav */
+
+body{
+    background: url(../assets/bgtexture.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-attachment: scroll;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* body of catagory */
+.imgWi{
+    height: 110%
+}
+
+/* for the image in the same row as the text  */
+.imgee3e{
+    height: 100%
+}
+
+.cat{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.imgee{
+    width: 110%;
+}
+
+
+/* the main title page for catering */
+.catHead{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    font-size: 50px;
+    margin-bottom: 3%;
+    font-family: 'Fugaz One', cursive;
+    padding-top: .7%;
+    padding-bottom: .7%;
+}
+
+ /* title in catering */
+.catTitle{
+    
+    color: #5F002B;
+    font-size: 30px;
+    font-family: 'Fugaz One', cursive;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* the paragraph in catering */
+.para{
+
+    color: #5F002B;
+    font-size: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family:  Montauk-Light;
+}
+
+/* collum */
+.colback{
+    background-color: #FFFFFF;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* border FOR IMAGES */
+.IMAGEpad{
+    border: 5px solid white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.paddings{
+    padding-left: .5%;
+    padding-top: 2%;
+    padding-bottom:  2%;
+    padding-right: .5%;
+}
+
+.rowPad{
+    padding-top: 7%;
+    padding-bottom:  7%;
+}
+
+/* FOR THE FOOTER */
+.endTxt {
+
+
+    text-align: end;
+}
+
+.nav-link {
+    color: #5F002B;
+}
+
+.montFont{
+    font-family:  Montauk-Light;
+    color: #5F002B;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+.img-thumbnail{
+    border: 5px solid white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0px;
+}
+
+/* START OF PHOTOS START OF PHOTOS START OF PHOTOS START OF PHOTOS */
+
+.catHead2{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    font-size: 50px;
+    margin-bottom: 3%;
+    font-family: 'Fugaz One', cursive;
+    padding-top: .2%;
+    padding-bottom: .2%;
+}
+
+/* for pages your going to need 
+text-decoration: none;
+ */
+
+
+
+/* ARELY ARELY ARELY ARELY ARELY ARELY ARELY ARELY ARELY ARELY  ARELY ARELY ARELY ARELY ARELY ARELY ARELY*/
+/* font-family: 'Fugaz One', cursive; */
+
+/* for reglaur */
+@font-face {
+    font-family: Montauk-Regular;
+    src: url(../fonts/Montauk-Regular.otf);
+}
+/* for Italic */
+@font-face {
+    font-family: Montauk-Italic;
+    src: url(../fonts/Montauk-Italic.otf);
+}
+/* for Light */
+@font-face {
+    font-family: Montauk-Light;
+    src: url(../fonts/Montauk-Light.otf);
+}
+/* for Bold */
+@font-face {
+    font-family: Montauk-Bold;
+    src: url(../fonts/Montauk-Bold.otf);
+}
+
+/* for the nav */
+.colorMe{
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+}
+.colorMe2{
+    font-size: 20px;
+    font-family: 'Fugaz One', cursive;
+    padding-left: 50px;
+}
+
+
+/* end of nav */
+
+body{
+    background: url(../assets/bgtexture.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    background-attachment: scroll;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+/* body of catagory */
+.imgWi{
+    height: 110%
+}
+
+/* for the image in the same row as the text  */
+.imgee3e{
+    height: 100%
+}
+
+.cat{
+    padding-top: 1%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.imgee{
+    width: 110%;
+}
+
+
+/* the main title page for catering */
+.catHead{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    font-size: 50px;
+    margin-bottom: 3%;
+    font-family: 'Fugaz One', cursive;
+    padding-top: .7%;
+    padding-bottom: .7%;
+}
+
+ /* title in catering */
+.catTitle{
+    
+    color: #5F002B;
+    font-size: 30px;
+    font-family: 'Fugaz One', cursive;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* the paragraph in catering */
+.para{
+
+    color: #5F002B;
+    font-size: 16px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    font-family:  Montauk-Light;
+}
+
+/* collum */
+.colback{
+    background-color: #FFFFFF;
+    padding-top: 1.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+/* border FOR IMAGES */
+.IMAGEpad{
+    border: 5px solid white;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.paddings{
+    padding-left: .5%;
+    padding-top: 2%;
+    padding-bottom:  2%;
+    padding-right: .5%;
+}
+
+.rowPad{
+    padding-top: 7%;
+    padding-bottom:  7%;
+}
+
+/* FOR THE FOOTER */
+.endTxt {
+
+
+    text-align: end;
+}
+
+.nav-link {
+    color: #5F002B;
+}
+
+.montFont{
+    font-family:  Montauk-Light;
+    color: #5F002B;
+    font-size: 20px;
+    padding-top: 5%;
+}
+
+.img-thumbnail{
+    border: 5px solid white;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0px;
+}
+
+/* START OF PHOTOS START OF PHOTOS START OF PHOTOS START OF PHOTOS */
+
+.catHead2{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    font-size: 50px;
+    margin-bottom: 3%;
+    font-family: 'Fugaz One', cursive;
+    padding-top: .2%;
+    padding-bottom: .2%;
+}
+
+/* for pages your going to need 
+text-decoration: none;
+ */
+
+ .buttonn{
+    text-decoration: none;
+    color: #5F002B;
+    font-family: 'Fugaz One', cursive;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.card{
+    border-radius: 0px;
+}
+
+
+/* menu page menu page menu page menu page */
+/* padding for card */
+.cardPadd{
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 7%;
+}
+
+.titleOfCard{
+    font-family: 'Fugaz One', cursive;
+    color: #5F002B;
+    font-size: 20px;
+}
+.underTitle{
+    font-family:  Montauk-Light;
+    color: #5F002B;
+    font-size: 14px;
+    margin-top: -.4rem !important;
+  
+}
+
+.begTitleR{
+    text-align: right;
+    color: #5F002B;
+    font-family:  Montauk-light;
+    font-size: 25px;
+    
+    /* padding-top: 10%; */
+}
+
+.begTitleL{
+    text-align: left;
+    color: #5F002B;
+    font-family:  Montauk-Light;
+    font-size: 25px;
+   
+}
+
+.OneSpacing{
+    margin-top: 30px;
+}
+
+.TwoSpacing{
+    margin-top: -.8rem !important;
+    
+}
+
+.decription{
+    font-family:  Montauk-Light;
+    color: #5F002B;
+    font-size: 16px;
+   
+}
+.dec{
+    
+    color: #5F002B;
+    height: 6%;
+    background-color: #22000f;
+}
+
+.lineeeSpaving{
+    padding-bottom: 0%;
+}
+
+.line{
+    border-top: .9px solid #980051;
+    width: 100%;
+}
+
+.card-img-top{
+    border-radius: 0px;
+}
+
+.colorwise{
+    color: transparent;
+}
+
+.catHead1{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+    padding-top: .7%;
+    padding-bottom: .7%;
+}
+
+
+/* resposiveneess for the lapton version bc its hard to see */
+  @media screen and (max-width: 1025px)  {
+    .titleOfCard {
+      font-size: 45px;
+    }
+    /* title */
+    .begTitleL{
+        font-size: 37px;
+        font-weight: bolder;
+        padding-bottom: 5%;
+    }
+    .begTitleR{
+        font-size: 40px;
+        font-weight:lighter;
+    }
+    /* under the main title */
+    .underTitle {
+        font-size: 20px;
+    }
+    .decription{
+        font-size: 23px;
+    }
+  }
+
+  /* This is for the tablet and some moblie version */
+  @media screen and (max-width: 425px)  {
+    /* mian title of page */
+    .titleOfCard {
+      font-size: 38px;
+    }
+    .underTitle {
+        font-size: 17px;
+    }
+    .card-img-top{
+        height: 130px;
+    }
+    .decription{
+        font-size: 18px;
+    }
+
+    .begTitleL{
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 10%;
+    }
+
+    .begTitleR{
+        font-size: 30px;
+        font-weight:500;
+        padding-bottom: 10%;
+    }
+
+    .cat{
+        padding: 1%;
+    }
+}
+
+/* responsive for moblie version */
+@media screen and (max-width: 320px)  {
+    .card-img-top{
+        height: 120px;
+    }
+    .begTitleL{
+        font-size: 28px;
+        font-weight: 900;
+    }
+    .begTitleR{
+        font-size: 29px;
+        font-weight: 500;
+    }
+
+    .cat{
+        padding: .5%;
+    }
+
+  }
+
+.cardSpacing{
+    margin-top: 1%;
+}
+
+.cardSpacing1{
+    margin-top: 6%;
+}
+
+.montFont24
+{
+
+    padding-left: 8%;
+    
+}
+
+.montFont25 {
+
+    padding-right: 7%;
+}
+
+
+
+
 
