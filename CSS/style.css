@@ -673,29 +673,62 @@ text-decoration: none;
     padding-bottom: .7%;
 }
 
-/* @media screen and (max-width: 1025px) {
-    .card-title {
-      font-size: 30px;
-      text-align: center;
+
+/* resposiveneess for the lapton version bc its hard to see */
+  @media screen and (max-width: 1025px)  {
+    .titleOfCard {
+      font-size: 45px;
     }
-    #ourTeam {
-        font-size: 35px;
-      }
-      #StoryText {
+
+    /* title */
+    .begTitleL{
+        font-size: 37px;
+        font-weight: bolder;
+        padding-bottom: 5%;
+    }
+
+    .begTitleR{
         font-size: 40px;
-        text-align: center;
-      } 
-      
-      .card-text {
-        text-align: center;
-      }
-      #CutieDogs {
-        display: none;
-      }
-      .goAway {
-        display: none;
+        font-weight:lighter;
     }
-  } */
+
+    /* under the main title */
+    .underTitle {
+        font-size: 20px;
+    }
+    .decription{
+        font-size: 23px;
+    }
+  }
+
+  /* This is for the moblie version */
+  @media screen and (max-width: 425px)  {
+    /* mian title of page */
+    .titleOfCard {
+      font-size: 38px;
+    }
+    .underTitle {
+        font-size: 17px;
+    }
+    .card-img-top{
+        height: 130px;
+    }
+    .decription{
+        font-size: 18px;
+    }
+
+    .begTitleL{
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 10%;
+    }
+
+    .begTitleR{
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 10%;
+    }
+  }
 
 .cardSpacing{
     margin-top: 1%;
