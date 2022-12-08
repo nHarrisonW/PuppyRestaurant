@@ -673,7 +673,7 @@ text-decoration: none;
     padding-bottom: .7%;
 }
 
-@media screen and (max-width: 1025px) {
+/* @media screen and (max-width: 1025px) {
     .card-title {
       font-size: 30px;
       text-align: center;
@@ -695,7 +695,9 @@ text-decoration: none;
       .goAway {
         display: none;
     }
-  }
+  } */
+
+
 
 
 
