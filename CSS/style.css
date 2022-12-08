@@ -391,7 +391,7 @@ body{
 
 /* START OF PHOTOS START OF PHOTOS START OF PHOTOS START OF PHOTOS */
 
-.catHead2{
+/* .catHead2{
     background-color: #FFFFFF;
     color: #5F002B;
     font-size: 50px;
@@ -399,7 +399,7 @@ body{
     font-family: 'Fugaz One', cursive;
     padding-top: .2%;
     padding-bottom: .2%;
-}
+} */
 
 /* for pages your going to need 
 text-decoration: none;
@@ -774,6 +774,68 @@ text-decoration: none;
 
     padding-right: 7%;
 }
+
+/* @media only screen and (max-width: 600px) {
+
+    .photos .my-selector {
+        font-size: 14px;
+    }
+
+} */
+
+.catHead2{
+    background-color: #FFFFFF;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+    padding-top: .7%;
+    padding-bottom: .7%;
+    
+}
+
+.catHeadMenu{
+    background-color: #FFFFFF;
+    width: 99%;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+    padding-top: .7%;
+    padding-bottom: .7%;
+    /* margin-left: 1%; */
+    /* margin-right: 100%; */
+    
+}
+
+.paddings2{
+    /* padding-left: .5%; */
+    padding-top: 2%;
+    padding-bottom:  2%;
+    /* padding-right: .5%; */
+}
+
+.paddings3{
+    /* padding-left: .5%; */
+    padding-top: 2%;
+    padding-bottom:  2%;
+    margin-left: .1%;
+    /* padding-right: .5%; */
+}
+
+.catHeadphotos{
+    background-color: #FFFFFF;
+    width: 99%;
+    color: #5F002B;
+    font-size: 50px;
+    font-family: 'Fugaz One', cursive;
+    padding-top: .7%;
+    padding-bottom: .7%;
+    /* margin-left: 1%; */
+    /* margin-right: 100%; */
+    
+}
+
+
+
 
 
 
