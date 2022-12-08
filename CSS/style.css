@@ -679,19 +679,16 @@ text-decoration: none;
     .titleOfCard {
       font-size: 45px;
     }
-
     /* title */
     .begTitleL{
         font-size: 37px;
         font-weight: bolder;
         padding-bottom: 5%;
     }
-
     .begTitleR{
         font-size: 40px;
         font-weight:lighter;
     }
-
     /* under the main title */
     .underTitle {
         font-size: 20px;
@@ -701,7 +698,7 @@ text-decoration: none;
     }
   }
 
-  /* This is for the moblie version */
+  /* This is for the tablet and some moblie version */
   @media screen and (max-width: 425px)  {
     /* mian title of page */
     .titleOfCard {
@@ -725,9 +722,25 @@ text-decoration: none;
 
     .begTitleR{
         font-size: 30px;
-        font-weight: bold;
+        font-weight:500;
         padding-bottom: 10%;
     }
+}
+
+/* responsive for moblie version */
+@media screen and (max-width: 320px)  {
+    .card-img-top{
+        height: 120px;
+    }
+    .begTitleL{
+        font-size: 28px;
+        font-weight: 900;
+    }
+    .begTitleR{
+        font-size: 29px;
+        font-weight: 500;
+    }
+
   }
 
 .cardSpacing{
