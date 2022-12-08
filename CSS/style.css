@@ -725,6 +725,10 @@ text-decoration: none;
         font-weight:500;
         padding-bottom: 10%;
     }
+
+    .cat{
+        padding: 1%;
+    }
 }
 
 /* responsive for moblie version */
@@ -739,6 +743,10 @@ text-decoration: none;
     .begTitleR{
         font-size: 29px;
         font-weight: 500;
+    }
+
+    .cat{
+        padding: .5%;
     }
 
   }
